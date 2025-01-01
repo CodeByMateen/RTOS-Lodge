@@ -1,10 +1,23 @@
 ## RTOS-Lodge
+
 Real-Time Optimization System for dynamic lodging solutions. Built for efficiency and scalability.
 
 ## Project setup
 
 ```bash
 $ npm install
+```
+
+## Install JWT Service
+
+```bash
+$ npm install @nestjs/jwt
+```
+
+## Install Dotenv Service
+
+```bash
+$ npm install dotenv
 ```
 
 ## Install Prisma and Dependencies:
