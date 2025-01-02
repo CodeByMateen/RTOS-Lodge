@@ -14,6 +14,8 @@ $ npm install -g @nestjs/cli
 $ npm install
 ```
 
+# Manually Installing Dependencies
+
 ## Install JWT Service
 
 ```bash
