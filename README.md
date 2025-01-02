@@ -2,6 +2,12 @@
 
 Real-Time Optimization System for dynamic lodging solutions. Built for efficiency and scalability.
 
+## To Install NestJS Globally
+
+```bash
+$ npm install -g @nestjs/cli
+```
+
 ## Project setup
 
 ```bash
@@ -20,6 +26,24 @@ $ npm install @nestjs/jwt
 $ npm install dotenv
 ```
 
+## Install Helmet Service
+
+```bash
+$ npm install helmet
+```
+
+## Install Swagger Service
+
+```bash
+$ npm install @nestjs/swagger swagger-ui-express
+```
+
+## Install Class Validator and Transformer
+
+```bash
+$ npm install class-validator class-transformer
+```
+
 ## Install Prisma and Dependencies:
 
 ```bash
@@ -31,6 +55,14 @@ $ npm install prisma --save-dev
 
 ```bash
 $ npx prisma init
+```
+
+## Generate Prisma
+
+Whenever you add new table and to reflect table changes in your code, use the command below
+
+```bash
+$ npx prisma generate
 ```
 
 ## Compile and run the project
