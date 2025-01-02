@@ -1,7 +1,7 @@
 export class SuccessConstant {
-  public static readonly SUCCESS = "1";
+  public static readonly SUCCESS = true;
 }
 
 export class ErrorConstant {
-  public static readonly ERROR = "0";
+  public static readonly ERROR = false;
 }

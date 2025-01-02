@@ -2,14 +2,14 @@ import { HttpStatus } from "@nestjs/common";
 
 export interface Response {
   response: string;
-  status: string;
+  status: boolean;
   status_code: number;
   data: any;
 }
 
 export function resSuccess(
   message: string,
-  status: string,
+  status: boolean,
   statusCode: number,
   data: any,
 ): Response {
@@ -23,7 +23,7 @@ export function resSuccess(
 
 export function resError(
   message: string,
-  status: string,
+  status: boolean,
   statusCode: number,
 ): Response {
   return {

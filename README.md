@@ -16,10 +16,41 @@ $ npm install
 
 # Manually Installing Dependencies
 
+## Install Config Module
+
+```bash
+$ npm install @nestjs/config
+```
+
+## Install Bcrypt Service
+
+```bash
+$ npm install bcrypt
+```
+
 ## Install JWT Service
 
 ```bash
 $ npm install @nestjs/jwt
+```
+
+## To Generate JWT Secret With 32 Characters
+
+```bash
+$ openssl rand -base64 32
+```
+OR 
+```bash
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+```
+OR For 32 Characters
+```bash
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
+OR In Python
+```python
+import secrets
+print(secrets.token_urlsafe(32))
 ```
 
 ## Install Dotenv Service
