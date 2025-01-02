@@ -5,7 +5,7 @@ import { PrismaService } from "src/common/prisma/prisma.service";
 import { UserSignupDto } from "./dto/user-auth.dto";
 import { SuccessConstant, ErrorConstant } from "src/common/constants/constant";
 import { resError, resSuccess } from "src/common/helpers/response";
-import _ from "lodash";
+import * as _ from "lodash";
 
 @Injectable()
 export class UserAuthService {

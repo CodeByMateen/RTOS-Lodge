@@ -35,6 +35,7 @@ $ npm install @nestjs/jwt
 ```
 
 ## To Generate JWT Secret With 32 Characters
+You can generate 32, 64, 128 and 256 characters secret key.
 
 ```bash
 $ openssl rand -base64 32
@@ -48,7 +49,7 @@ OR For 32 Characters
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 OR In Python
-```python
+```
 import secrets
 print(secrets.token_urlsafe(32))
 ```
