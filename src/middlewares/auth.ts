@@ -9,7 +9,7 @@ import { UserRequest } from "src/common/interface/request";
 import { PrismaService } from "src/common/prisma/prisma.service";
 
 @Injectable()
-export class AuthMiddleware implements NestMiddleware { 
+export class AuthMiddleware implements NestMiddleware {
   constructor(
     private prisma: PrismaService,
     private jwtService: JwtService,
