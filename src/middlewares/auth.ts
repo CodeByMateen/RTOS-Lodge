@@ -1,5 +1,5 @@
 import {
-  Injectable, 
+  Injectable,
   NestMiddleware,
   UnauthorizedException,
 } from "@nestjs/common";
